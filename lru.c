@@ -56,7 +56,21 @@ if(b[r]<b[j])
 t=b[r];
 b[r]=b[j];
 b[j]=t;
+  
 }
 }
+}
+  for(r=0;r<f;r++)
+{
+if(c2[r]==b[0])
+q[r]=p[i];
+printf("\t%d",q[r]);
+}
+printf("\n");
+}
+}
+}
+printf("\nThe no of page faults is %d",c);
+return 0;
 }
 
